@@ -1,3 +1,4 @@
+#Create a function that returns the whole of the first sentence which contains a specific word. Include the full stop at the end of the sentence.
 def Sentence_searcher(txt,fltr):
     txt = txt.split('.')
     for snt in txt :
