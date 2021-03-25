@@ -1,3 +1,5 @@
+#Given two sentences, return whether they are shadows of each other.
+#This means that all of the word lengths are the same, but the corresponding words don't share any common letters.
 def shadow_sentence(a, b):
     a_lst = a.split()
     b_lst = b.split()
